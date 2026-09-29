@@ -1,11 +1,34 @@
 ---
-title: "jess-helmer"
+title: "Jess Helmer"
+format: html
+image: media/2026-02-24_headshot.png
+toc: false
+about:
+  image-shape: rectangle
+  image-width: 19em 
+  template: solana
+  links:
+    - text: GitHub
+      icon: github
+      href: https://github.com/jhelmer3
+      target: _blank 
+    - text: Email
+      icon: envelope
+      href: mailto:jhelmer3@gatech.edu
+    - text: LinkedIn
+      icon: linkedin
+      href: https://www.linkedin.com/in/jessica-helmer-95339b18a/
+      target: _blank
 ---
 
-This is a Quarto website.
+Hi! I'm Jess Helmer. I'm a third-year PhD student at Georgia Tech in the Quantitative Psychology program.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Heading One
 
-```{r}
-1 + 1
-```
+## Heading Two
+
+### Heading Three
+
+Here's a little bit of `inline_code`.
+
+[Button Example]{.btn .btn-outline-primary}

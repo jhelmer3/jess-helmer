@@ -1,0 +1,11 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+bw_ex3.1_data|stem|396300d260f869ef|6daa2e78a06f4613|2c530c1562a7fbd1|-2023805633||t20683.5862929874s|s155b|155|qs|local|vector|||1.468||
+bw_ex3.1_mcmc_bw_ex3.1|stem||e064d94affb74afa|78deb99e490052fe|919030112||t20683.5869092624s||0|qs|local|vector|||53.125||An error occured during compilation! See the message above for more information.
+bw_ex3.1_file_bw_ex3.1|stem|62d6f01e85ac2e7d|a13dab23536e71fc|2c530c1562a7fbd1|-1844095995|models/bw_ex3.1.stan|t20683.5963159864s|s535b|535|file|local|vector|||0||
+fit_data|stem|396300d260f869ef|6daa2e78a06f4613|2c530c1562a7fbd1|2045157859||t20683.5981452677s|s155b|155|qs|local|vector|||1.75||
+fit_file_bw_ex3.1|stem|b5781158b66f4755|a13dab23536e71fc|2c530c1562a7fbd1|1209975231|models/bw_ex3.1.stan|t20683.6532034996s|s415b|415|file|local|vector|||0||
+fit_mcmc_bw_ex3.1|stem|319510a8e0c43a63|b0a609d85d0af6d0|347bb7a2d3ddfc6e|-1296059637||t20683.6579343035s|s165102b|165102|qs|local|vector|||15.266||
+fit_diagnostics_bw_ex3.1|stem|ed40476e10c3b2f3|d2c671a846ee5b27|42e8b52659a687c3|1133836317||t20683.6579356448s|s84508b|84508|fst_tbl|local|vector|||0||
+fit_summary_bw_ex3.1|stem|5d399c10cc76fc32|42725e852e074118|1d1b33f2bad4bbbf|-2035517112||t20683.6579365221s|s1268b|1268|fst_tbl|local|vector|||0.063||
+fit_draws_bw_ex3.1|stem|1dfb346523a47e3c|90662c50d9bf2a94|42e8b52659a687c3|-219942334||t20683.6579367276s|s84494b|84494|fst_tbl|local|vector|||0||
+bayesian_workflow_exercises|stem|67c43d6803f61e18|612c479c8c896078|2711ddc89738dc10|1384278963|docs/posts/bayesian_workflow_exercises.html*posts/bayesian_workflow_exercises.qmd*styles.css|t20683.6587366534s|s36251b|36251|file|local|vector|||6.218||

@@ -1,0 +1,76 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+$display: "Ultra", sans-serif;
+$sans: "Didact Gothic", sans-serif;
+
+$light-green: #a2ab88; // #BBDBB4;
+$dark-green: #4B5842;
+$red: #A64253;
+$light-cream: #fef9ec;
+$cream: #FCF0CC;
+
+// Base document colors
+$navbar-bg: $dark-green; // navbar
+$navbar-fg: $cream; // navbar foreground elements
+$navbar-hl: $light-green; // highlight color when hovering over navbar links
+$body-bg: $cream; // page background 
+$body-color: $dark-green; // page text 
+$footer-bg: $light-green; // footer 
+$footer-fg: $cream;
+$link-color: $red; // hyperlinks 
+
+// Inline code
+$code-bg: $cream; // inline code background color
+$code-color: $red; // inline code text color
+
+
+/*-- scss:rules --*/
+
+h1.title {
+    color: $red;
+    font-family: $display;
+}
+
+.navbar-title, .menu-text {
+    font-family: $sans;
+}
+
+h1, h2, h3 {
+  color: $dark-green;
+  font-family: $display;
+}
+
+a.about-link, .bi {
+  background-color: $cream;
+  color: $dark-green;
+  border-color: $red;
+}
+
+.about-link-text {
+    color: $dark-green;
+}
+
+// .about-link .bi {
+//   background-color: $red;
+//   color: $red;
+//   border-color: $red;
+// }
+
+.btn {
+  background-color: $cream;
+  color: $dark-green;
+  border-color: $dark-green;
+}
+
+// .btn:hover {
+//     background-color: $red;
+//     border-color: $cream;
+// }
+
+.about-image.rectangle {
+    border-radius: 2em !important;
+}

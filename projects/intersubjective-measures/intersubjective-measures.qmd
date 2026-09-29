@@ -1,0 +1,6 @@
+---
+title: "Intersubjective Measures"
+description: Improving the precision of forecasting ability measurements by using wisdom of crowds.
+image: intersubjective-measures.png
+format: html
+---

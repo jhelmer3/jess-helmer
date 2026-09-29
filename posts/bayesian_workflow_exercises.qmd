@@ -1,0 +1,60 @@
+---
+title: "Bayesian Workflow Exercises"
+---
+
+```{r setup}
+library(tidyverse)
+library(targets)
+
+c(fit_draws_bw_ex3.1) |>
+  tar_load(store = here::here("_targets"))
+```
+
+Exercise 3.1.
+
+(a)
+
+```{r}
+fit_draws_bw_ex3.1 |>
+  ggplot(aes(y = "p_liar", x = p_liar, fill = factor(after_stat(quantile)))) +
+  ggridges::stat_density_ridges(geom = "density_ridges_gradient", 
+                                quantile_lines = T,
+                                quantiles = c(0.055, 0.25, 0.5, 0.75, 0.945),
+                                calc_ecdf = T,
+                                color = "lightblue",
+                                alpha = 0.7) +
+  scale_x_continuous("Proportion of Truthers", limits = 0:1,
+                     labels = scales::label_percent()) +
+  scale_fill_manual("Quantile", 
+                    values = c("1" = "lightblue", "2" = "steelblue3", "3" = "steelblue4",
+                               "4" = "steelblue4", "5" = "steelblue3", "6" = "lightblue"),
+                    labels = c("1" = "HM", "2" = "89%", "3" = "50%",
+                               "4" = "50%", "5" = "89%", "6" = "HM")) +
+  theme_classic() +
+  guides(x = guide_axis(cap = T),
+         y = guide_none("Posterior Density")) +
+  labs(title = "Posterior Distribution",
+       subtitle = "Proportion of Truthers") +
+  theme(legend.position = "none",
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(size = 14, hjust = 0.5, face = "italic"))
+```
+
+(b)
+
+```{r}
+fit_draws_bw_ex3.1 |>
+  mutate(N_next_ten_claim = rbinom(n(), size = 10, p = 0.5 + (1 - 0.5) * p_liar)) |>
+  ggplot(aes(x = N_next_ten_claim)) +
+  geom_bar(fill = "steelblue4", color = "steelblue4") +
+  scale_x_continuous("Prizes Claimed", breaks = 0:10) +
+  theme_classic() +
+  guides(x = guide_axis(cap = T),
+         y = guide_none("Posterior Density")) +
+  labs(title = "Posterior Predictive Distribution",
+       subtitle = "For Next Ten Participants") +
+  theme(legend.position = "none",
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold"),
+        plot.subtitle = element_text(size = 14, hjust = 0.5, face = "italic"))
+```
+

@@ -1,21 +1,26 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "jess-helmer"
+  title: "Jess Helmer"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: projects.qmd
+  page-footer: 
+    right: This website was built with ♡ and [Quarto](https://quarto.org/){target=_blank}.
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
-    css: styles.css
+      - minty
+      - styles.scss
+    mainfont: Didact Gothic
     toc: true
+    page-layout: full
 
 
 
