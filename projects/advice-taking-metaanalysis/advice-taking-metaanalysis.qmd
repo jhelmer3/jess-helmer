@@ -14,7 +14,7 @@ In this project, I am working on building a existing mixture model analysis of a
 Visit the analysis site for this work-in-progress project here:
 :::
 ::: {.column width=33%}
-[ADVICE-TAKING METAANALYSIS](https://jhelmer3.github.io/advice-taking-metaanalysis){.btn .btn-outline}
+[ADVICE-TAKING METAANALYSIS](https://jhelmer3.github.io/advice-taking-metaanalysis){.btn}
 :::
 ::::
 
