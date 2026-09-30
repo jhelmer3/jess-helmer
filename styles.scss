@@ -87,7 +87,10 @@ div.callout-warning.callout-style-default .callout-header {
 }
 
 div.callout-warning.callout {
-  border-left-color: $light-red;
+  border-color: $light-red;
+  border-right-width: 0.5px;
+  border-bottom-width: 0.5px;
+  border-top-width: 0.5px;
 }
 
 div.callout-warning.callout-style-default .callout-header i.callout-icon {
