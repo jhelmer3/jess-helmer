@@ -5,6 +5,9 @@
 .DS_Store
 .quarto
 
+draft/
+data/
+
 /.quarto/
 
 **/*.quarto_ipynb

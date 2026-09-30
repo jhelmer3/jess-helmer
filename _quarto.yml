@@ -10,6 +10,9 @@ website:
         text: Home
       - about.qmd
       - href: projects.qmd
+      - icon: github
+        href: https://github.com/jhelmer3/jhelmer3.github.io
+        target: _blank
   page-footer: 
     right: This website was built with ♡ and [Quarto](https://quarto.org/){target=_blank}.
 

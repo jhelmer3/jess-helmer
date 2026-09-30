@@ -1,0 +1,20 @@
+---
+title: "Advice-Taking Metaanalysis"
+description: Building a Bayesian metaanalytic mixture model of advice taking.
+image: advice-taking-metaanalysis.png
+format: html
+---
+
+In this project, I am working on building a existing mixture model analysis of advice-taking into a metaanalytic model. 
+
+![A posterior predictive distribution of the weight people give their own belief compared to advice. The modes at 0, 0.5, and 1 represent completely declining, perfectly averaging with, and completely adopting the given advice.](advice-taking-metaanalysis.png){width="30%"}
+
+:::: {.columns}
+::: {.column width=66%}
+Visit the analysis site for this work-in-progress project here:
+:::
+::: {.column width=33%}
+[ADVICE-TAKING METAANALYSIS](https://jhelmer3.github.io/advice-taking-metaanalysis){.btn .btn-outline}
+:::
+::::
+

@@ -10,6 +10,7 @@ $sans: "Didact Gothic", sans-serif;
 $light-green: #a2ab88; // #BBDBB4;
 $dark-green: #4B5842;
 $red: #A64253;
+$lighter-red: #e2a796;
 $light-cream: #fef9ec;
 $cream: #FCF0CC;
 
@@ -27,6 +28,8 @@ $link-color: $red; // hyperlinks
 $code-bg: $cream; // inline code background color
 $code-color: $red; // inline code text color
 
+
+$callout-color-warning: $cream;
 
 /*-- scss:rules --*/
 
@@ -66,11 +69,26 @@ a.about-link, .bi {
   border-color: $dark-green;
 }
 
-// .btn:hover {
-//     background-color: $red;
-//     border-color: $cream;
-// }
+.btn:hover {
+    background-color: $red;
+    border-color: $cream;
+}
 
 .about-image.rectangle {
     border-radius: 2em !important;
+}
+
+// callout blocks
+
+div.callout-warning.callout-style-default .callout-header {
+  background-color: $red;
+  color: $cream
+}
+
+div.callout-warning.callout {
+  border-left-color: $lighter-red;
+}
+
+div.callout-warning.callout-style-default .callout-header i.callout-icon {
+  color: $dark-green;
 }
