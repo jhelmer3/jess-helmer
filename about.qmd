@@ -1,9 +1,15 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+Hi! I'm Jess Helmer. I'm a third-year PhD student in the Quantitative Psychology program at Georgia Tech, working under Dr. Mark Himmelstein. I enjoy developing and evaluating statistical models, especially in the Bayesian framework. Right now, some things I’m working on are:
 
-```{r}
-1 + 1
-```
+- a metaanalysis model of how people incorporate advice into their own beliefs, 
+
+- techniques to examine and account for the impact of measurement reactivity (when responses differ in different measurement contexts), and 
+
+- methods to more precisely measure someone’s ability at making accurate forecasts about future events.
+
+I'm a huge R nerd, and love learning about the latest and greatest in R development. My newest obsession is the [{targets}](https://books.ropensci.org/targets/) package, which has quickly been integrated into almost all of my projects. I'm also a gargantuan Quarto fan, and I'm always exploring the different ways it can facilitate data and analytics communication.
+
+I have two cats and many plants, though fewer than I used to. I'm a (new, and still learning) amateur radio enthusiast, and in summer 2025, I got my Technician license. I also love to gobble up some sci-fi: I'm currently watching the new season of Silo, and my favorite authors are Octavia Butler and Cixin Liu.

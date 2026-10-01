@@ -28,14 +28,17 @@ $link-color: $red; // hyperlinks
 $code-bg: $cream; // inline code background color
 $code-color: $red; // inline code text color
 
-
 $callout-color-warning: $cream;
+
+// Font sizing
+$font-size-root: 1.3em;
+$h1-font-size: 2.5em;
+$h2-font-size: 1.5em;
 
 /*-- scss:rules --*/
 
-h1.title {
-    color: $red;
-    font-family: $display;
+.about.entity.h1.title {
+  font-size: 120%;
 }
 
 .navbar-title, .menu-text {
@@ -47,7 +50,23 @@ h1, h2, h3 {
   font-family: $display;
 }
 
-a.about-link, .bi {
+section#jess-helmer.level1.index-page h1 {
+    color: $red;
+    font-family: $display;
+    font-size: 4em;
+    text-align: right;
+}
+
+section#jess-helmer.level1.index-page p {
+    text-align: right;
+}
+
+i.bi.bi-github {
+  background-color: $dark-green;
+  color: $cream;
+}
+
+a.about-link, i.bi.bi-github {
   background-color: $cream;
   color: $dark-green;
   border-color: $red;
@@ -56,12 +75,6 @@ a.about-link, .bi {
 .about-link-text {
     color: $dark-green;
 }
-
-// .about-link .bi {
-//   background-color: $red;
-//   color: $red;
-//   border-color: $red;
-// }
 
 .btn {
   background-color: $cream;

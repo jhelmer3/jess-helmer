@@ -1,11 +1,11 @@
 ---
-title: "Jess Helmer"
+# title: "Jess Helmer"
 format: html
 image: media/2026-02-24_headshot.png
 toc: false
 about:
   image-shape: rectangle
-  image-width: 19em 
+  image-width: 18em 
   template: solana
   links:
     - text: GitHub
@@ -21,18 +21,12 @@ about:
       target: _blank
 ---
 
-::: callout-warning
+::: index-page
+# Jess Helmer
+
+<!-- ::: callout-warning
 This website is a work in progress! I have just started building it out.
+::: -->
+
+Hi! I'm Jess Helmer. I'm a third-year PhD student in the Quantitative Psychology program at Georgia Tech.
 :::
-
-Hi! I'm Jess Helmer. I'm a third-year PhD student at Georgia Tech in the Quantitative Psychology program.
-
-# Heading One
-
-## Heading Two
-
-### Heading Three
-
-Here's a little bit of `inline_code`.
-
-[Button Example]{.btn .btn-outline-primary}
